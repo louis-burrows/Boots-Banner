@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100vw;
+}
+
+body .banner {
+  margin: 10%;
+  position: relative;
+  width: 80%;
+  max-width: 900px;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #ffe7f4;
+  color: black;
+  text-decoration: none;
+}
+
+body .banner .lowerborder {
+  position: absolute;
+  z-index: -1;
+  left: 2.5%;
+  bottom: -10px;
+  width: 95%;
+  height: 10px;
+  background-color: #f093a3;
+}
+
+body .banner .banner:visited {
+  color: black;
+}
+
+body .banner .text {
+  text-align: center;
+  width: 80%;
+  margin: 15px auto;
+}
+
+body .banner .picOfCard {
+  margin: 10px auto;
+  height: 100px;
+}
+
+@media only screen and (min-width: 300px) {
+  body .banner .picOfCard {
+    height: 150px;
+  }
+}
+
+@media only screen and (min-width: 520px) {
+  body .banner .text {
+    width: 60%;
+  }
+  body .banner .picOfCard {
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 710px) {
+  body .banner .text {
+    width: 80%;
+  }
+  body .banner .picOfCard {
+    height: 60px;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  body .banner .picOfCard {
+    height: 50px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
