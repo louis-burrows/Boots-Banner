@@ -6,16 +6,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
-  width: 100vw;
-}
-
 body .banner {
   margin: 10%;
   position: relative;
   width: 80%;
   max-width: 900px;
-  height: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
